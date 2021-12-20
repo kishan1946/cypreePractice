@@ -1,0 +1,9 @@
+{
+    "password" : "admin",
+    "email" : "admin@yourstore.com",
+    "name" :"Kumar",
+    "phoneName3":["Blackberry","Nokia"],
+    "phoneName2":"Nokia",
+    "phoneName":"Blackberry",
+    "country" :"india"
+}
