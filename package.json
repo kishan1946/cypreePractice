@@ -1,0 +1,29 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run-chrome": "cypress run --browser chrome",
+    "cypress:run-chrome-head": "cypress run --headed --browser chrome",
+    "cypress:run-headed": "cypress run --headed"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },  
+  "author": "kishan",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-iframe": "^1.0.1",
+    "mocha": "^9.1.3",
+    "mochawesome": "^7.0.1"
+  },
+  "dependencies": {
+    "dom-parser": "^0.1.6"
+  }
+}
