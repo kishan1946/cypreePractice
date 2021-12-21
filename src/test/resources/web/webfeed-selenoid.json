@@ -1,0 +1,15 @@
+{
+  "desiredCapabilities": {
+    "pageLoadStrategy": "eager",
+    "enableVNC": true
+  },
+  "arguments": [
+  ],
+  "preferences": {
+    "managed_default_content_settings.cookies": 2
+  },
+  "extensions": [
+  ],
+  "experimentalOptions": {
+  }
+}
